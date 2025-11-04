@@ -1,0 +1,68 @@
+body{
+    background-color: cadetblue;
+    font-family: cursive;
+    padding: 40px;
+    text-align: center;
+}
+h2{
+    font-family: fantasy;
+}
+.container{
+    background-color: lightcoral;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 10px 20px rgb(7, 7, 221);
+    transition: transform 0.4s background-color 0.4s ease;
+}
+.container:hover{
+    background-color: khaki;
+    transform: scale(1.1);
+}
+.message{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    color: gray;
+}
+.card-links{
+    margin-top: 20px;
+    justify-content: space-around;
+    display: flex;
+    text-decoration: none;
+}
+.card-links a{
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    transition: background-color 0.3s ease-in-out;
+}
+.card-links a:hover{
+    background-color: chocolate;
+}
+.card-links a:active{
+    background-color: orangered;
+}
+.card-links a:focus{
+    outline: 2px solid maroon;
+}
+.card-links a:visited{
+    background-color: crimson;
+}
+section{
+    margin: 30px auto;
+    max-width: 600px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+}
+section:hover{
+    transform: skewX(10deg);
+}
+section:target{
+    display: block;
+}
